@@ -1,0 +1,48 @@
+body{
+    background-color: #D7B899;
+    margin: 0;
+}
+
+header{
+    background-color: #C9A27E;
+    width: 60%;
+    height: 100px;
+
+    border: solid  black 1px;
+}
+
+h1{
+    margin: 0;
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    
+    border: solid  black 1px;
+}
+
+ul{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul li{
+    border: outset black 1px;
+}
+
+
+#reloj{
+    font-size: 13px;
+}
+
+
+aside{
+    background-color: #C9A27E;
+    width: 150px;
+    height: 300px
+}
