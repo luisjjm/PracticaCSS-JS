@@ -1,11 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+html{
+    width: 100%;
+    height: 83%;
+}
+
 body{
-    background-color: #D7B899;
+    background-color: whitesmoke;
     margin: 0;
+    width: 100%;
+    height: 100%;
 }
 
 header{
     background-color: #C9A27E;
-    width: 60%;
+    width: 100%;
     height: 100px;
 
     border: solid  black 1px;
@@ -15,6 +26,12 @@ h1{
     margin: 0;
 }
 
+main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
 aside{
     display: flex;
     flex-direction: column;
@@ -22,6 +39,10 @@ aside{
     align-items: center;
     
     border: solid  black 1px;
+
+    background-color: #C9A27E;
+    width: 150px;
+    height: 100%
 }
 
 ul{
@@ -35,14 +56,27 @@ ul li{
     border: outset black 1px;
 }
 
+ul li:hover{
+    background-color: #D8B898;
+}
+
+ul li:active{
+    border: inset black 1px;
+    background-color: #A9825F;
+}
 
 #reloj{
     font-size: 13px;
 }
 
 
-aside{
-    background-color: #C9A27E;
-    width: 150px;
-    height: 300px
+#aside_img{
+    width: 130px;
+    border: solid 1px black;
+}
+
+section{
+    flex: 1;
+    background-color: #D7B899;
+
 }

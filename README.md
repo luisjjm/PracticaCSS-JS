@@ -5,20 +5,6 @@ Idea principal: un blog con estilo retro.
 
 El proyecto actualmente cuenta con la siguiente rama de directorios:
 
-/PracticaCSS_JS
-.
-├── Html
-│   ├── index.html
-│   ├── Javascript
-│   │   └── app.js
-│   ├── Media
-│   │   └── img
-│   │       
-│   ├── Pages
-│   └── Styles
-│       └── style.css
-└── README.md
-
 El proyecto acutalment ecuenta con 7 directorios:
 
 Html. Engloba el proyecto
