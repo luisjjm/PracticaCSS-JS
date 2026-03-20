@@ -4,7 +4,7 @@
 
 html{
     width: 100%;
-    height: 83%;
+    height: 83.5%;
 }
 
 body{
@@ -20,6 +20,21 @@ header{
     height: 100px;
 
     border: solid  black 1px;
+}
+
+#cabecera{
+    display: flex;
+    justify-content: space-between;
+}
+
+#cabecera p{
+    font-size:11px;
+}
+
+#loggin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h1{
@@ -78,5 +93,36 @@ ul li:active{
 section{
     flex: 1;
     background-color: #D7B899;
+    max-height: 800px;
+    overflow: scroll;
+}
 
+article {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: bisque;
+    padding: 15px;
+    padding-right: 30px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid white;
+    box-shadow: #C9A27E 1px 5px 5px 1px;
+}
+
+label{
+    font-size: 12px;
+}
+
+input{
+    width: 100px;
+}
+
+#img_articulo{
+    width: 250px;
+}
+
+#contenido{
+    width: 60%;
 }
