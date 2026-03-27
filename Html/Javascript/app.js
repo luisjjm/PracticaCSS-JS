@@ -18,3 +18,16 @@ fetch("Pages/contenidoArticulos.html")
 .then(html => {
     document.getElementById("articulos").innerHTML = html;
 })
+
+// const form = document.forms["loginForm"];
+const form = document.getElementById("form_loggin");
+const mensaje = document.querySelector("#mensaje");
+// debugger;
+form.addEventListener("submit", (e) => {
+    e.preventDefault();
+    debugger;
+    const usuario = form.user.value;
+    const contraseña = form.pass.value;
+
+    mensaje.textContent += 'Bienvenido, ' + usuario + '.'
+});
