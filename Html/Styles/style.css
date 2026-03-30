@@ -29,11 +29,11 @@ body{
 }
 
 header{
-    background-color: #C9A27E;
+    background-image: url(../Media/img/aquilasol-cafe-675219_1920.jpg);
     width: 100%;
     height: 100px;
     box-shadow: #C9A27E 5px 5px 5px 5px;
-
+    border: 1px solid black;
     
     padding: 10px;
     padding-left: 20px;
@@ -49,6 +49,14 @@ header{
     font-size:11px;
 }
 
+#mensaje{
+    background: rgba(255,255,255, 0.7);
+}
+
+.boton{
+    width: 50px;
+}
+
 #loggin{
     display: flex;
     justify-content: center;
@@ -57,7 +65,12 @@ header{
 
 h1{
     margin: 0;
-    color: (#4A2E1F);
+    color: #4A2E1F;
+    font-family: 'Poppins';
+}
+
+h3{
+    color: #4A2E1F;
     font-family: 'Poppins';
 }
 
@@ -67,6 +80,14 @@ p{
 
 main{
     display: flex;
+
+    background-image: 
+    linear-gradient(to bottom, rgba(250, 235, 215, 0.7) 10%, rgba(215, 184, 153, 0.7) 50%),
+    url(../Media/img/white-waves.webp);
+
+    background-size: cover, cover;
+    background-repeat: no-repeat, repeat;
+
     width: 100%;
     height: 100%;
 }
@@ -78,21 +99,28 @@ aside{
     align-items: center;
     
     border: solid  black 1px;
+    border-radius: 12px;
 
-    background-color: #C9A27E;
+    background-color: rgba(201, 162, 126);
     width: 150px;
-    height: 100%
+    height: 80%;
+
+    margin-top: 20px;
+    margin-left: 12px;
 }
 
 ul{
     width: 100%;
     margin: 0;
     padding: 0;
+    padding-top: 18px;
     list-style: none;
+    
 }
 
 ul li{
     border: outset black 1px;
+    text-align: center;
 }
 
 ul li:hover{
@@ -104,7 +132,12 @@ ul li:active{
     background-color: #A9825F;
 }
 
+a{
+    font-family: 'Inter';
+}
+
 #reloj{
+    text-align: center;
     font-size: 13px;
 }
 
@@ -115,7 +148,6 @@ ul li:active{
 
 section{
     flex: 1;
-    background-color: #D7B899;
     max-height: 800px;
     overflow: scroll;
 }
@@ -125,7 +157,7 @@ article {
     justify-content: space-between;
     align-items: center;
 
-    background-color: bisque;
+    background-color: rgba(255, 228, 196);
     padding: 15px;
     padding-right: 30px;
     margin: 20px;
@@ -154,7 +186,6 @@ input{
 
 article h3{
     margin-top: 0;
-    font-family: 'Poppins';
 }
 
 #nav-movil {
@@ -184,6 +215,11 @@ article h3{
         flex-direction: column;
         padding: 5px;
         margin: 5px;
+    }
+
+    ul{
+        padding-top: 0;
+        height: 100%;
     }
 
     #nav-movil{
