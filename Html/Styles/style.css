@@ -78,6 +78,10 @@ p{
     font-family: 'Inter';
 }
 
+label{
+    font-family: 'Inter';
+}
+
 main{
     display: flex;
 
@@ -204,6 +208,21 @@ article h3{
     color: #4A2E1F;
     font-family: 'Poppins';
     font-size: 12px;
+}
+
+#titulo{
+    width: 200px;
+}
+
+#cuerpo{
+    width: 500px;
+    height: 100px;
+}
+
+.caja:focus {
+  background-color: #fff3c4;
+  border: 2px solid brown;
+  outline: none;
 }
 
 @media (max-width: 768px){

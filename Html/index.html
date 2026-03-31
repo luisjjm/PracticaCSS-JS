@@ -13,16 +13,16 @@
         <h1>Blog Café</h1>
         
         <div id="cabecera">
-            <p id="mensaje">Un blog para todos. </p>
+            <p id="mensaje">Un blog para todos.</p>
 
             <div id="loggin">
                 <form id="form_loggin">
                     <div>
                     <label for="user">Usuario:</label>
-                    <input type="text" name="user">
+                    <input class="caja" type="text" name="user">
                     
                     <label for="pass">Contraseña:</label>
-                    <input type="password" name="pass">
+                    <input class="caja" type="password" name="pass">
                     <input class="boton" type="submit" value="Enter.">
                     </div>
                     
@@ -60,6 +60,19 @@
         </aside>
 
         <section>
+            <article>
+                <form style="display: flex; flex-direction: column;">
+                    <h3>Publica:</h3>
+                    <label for="titulo">Titulo:</label>
+                    <input id="titulo" class="caja" type="text" name="titulo">
+                    <label for="cuerpo">Contenido:</label>
+                    <textarea id="cuerpo" class="caja" type="text" name="cuerpo"></textarea>
+                    <label for="imagen">Selecciona una imagen:</label>
+                    <input type="file" id="imagenfile" name="imagen" accept="image/*">
+                    <input class="boton" type="submit" value="Enter.">
+                </form>
+            </article>
+
             <div id="articulos"></div>
         </section>
 
